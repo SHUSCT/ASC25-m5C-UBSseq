@@ -2,6 +2,12 @@
 
 # m<sup>5</sup>C-UBSseq
 
+# Note
+
+数据集下载：
+- https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614
+
 ## Changelog
 
 - 4/23/2024: rewrite code using polars

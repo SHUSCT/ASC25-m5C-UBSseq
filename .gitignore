@@ -1,1 +1,7 @@
 .snakemake/
+SRR23538290/
+SRR23538291/
+SRR23538292/
+ref/
+*.tsv
+*.arrow

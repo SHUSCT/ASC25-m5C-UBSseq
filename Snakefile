@@ -78,7 +78,7 @@ rule cutadapt_SE:
     threads: 20
     shell:
         """
-        cutseq -t {threads} -A {params.library} -m 20 --trim-polyA --ensure-inline-barcode --auto-rc -o {output.fastq_cut} -s {output.fastq_tooshort} -u {output.fastq_untrimmed} --json-file {output.report} {input} 
+        cutseq -t {threads} -A {params.library} -m 20 --trim-polyA --ensure-inline-barcode --auto-rc -o {output.fastq_cut} -s {output.fastq_tooshort} -u {output.fastq_untrimmed} --json-file {output.report} {input}
         """
 
 
@@ -105,7 +105,7 @@ rule cutadapt_PE:
     threads: 20
     shell:
         """
-        cutseq -t {threads} -A {params.library} -m 20 --trim-polyA --ensure-inline-barcode --auto-rc -o {output.fastq_cut} -s {output.fastq_tooshort} -u {output.fastq_untrimmed} --json-file {output.report} {input} 
+        cutseq -t {threads} -A {params.library} -m 20 --trim-polyA --ensure-inline-barcode --auto-rc -o {output.fastq_cut} -s {output.fastq_tooshort} -u {output.fastq_untrimmed} --json-file {output.report} {input}
         """
 
 
