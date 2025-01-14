@@ -1,0 +1,85 @@
+SRR23538290	cutseq took 220.371621566 seconds.
+SRR23538292	cutseq took 251.966972869 seconds.
+SRR23538291	cutseq took 272.058476831 seconds.
+SRR23538290	HISAT2 summary stats:
+SRR23538290		Total reads: 88844009
+SRR23538290			Aligned 0 time: 76051745 (85.60%)
+SRR23538290			Aligned 1 time: 5891778 (6.63%)
+SRR23538290			Aligned >1 times: 6900486 (7.77%)
+SRR23538290		Overall alignment rate: 14.40%
+SRR23538290	hisat-3n rRNA, tRNA filtering took 361.963760549 seconds.
+SRR23538290	[M::bam2fq_mainloop] discarded 0 singletons
+SRR23538290	[M::bam2fq_mainloop] processed 76051745 reads
+SRR23538290	samtools fastq took 51.920656838 seconds.
+SRR23538292	hisat-3n rRNA, tRNA filtering took 436.335409256 seconds.
+SRR23538292	HISAT2 summary stats:
+SRR23538292		Total reads: 112561792
+SRR23538292			Aligned 0 time: 96046918 (85.33%)
+SRR23538292			Aligned 1 time: 7377774 (6.55%)
+SRR23538292			Aligned >1 times: 9137100 (8.12%)
+SRR23538292		Overall alignment rate: 14.67%
+SRR23538292	[M::bam2fq_mainloop] discarded 0 singletons
+SRR23538292	[M::bam2fq_mainloop] processed 96046918 reads
+SRR23538292	samtools fastq took 60.915587487 seconds.
+SRR23538291	HISAT2 summary stats:
+SRR23538291		Total reads: 129672777
+SRR23538291			Aligned 0 time: 110519553 (85.23%)
+SRR23538291			Aligned 1 time: 8610722 (6.64%)
+SRR23538291			Aligned >1 times: 10542502 (8.13%)
+SRR23538291		Overall alignment rate: 14.77%
+SRR23538291	hisat-3n rRNA, tRNA filtering took 483.483347203 seconds.
+SRR23538291	[M::bam2fq_mainloop] discarded 0 singletons
+SRR23538291	[M::bam2fq_mainloop] processed 110519553 reads
+SRR23538291	samtools fastq took 73.561479243 seconds.
+SRR23538290	HISAT2 summary stats:
+SRR23538290		Total reads: 76051745
+SRR23538290			Aligned 0 time: 6445121 (8.47%)
+SRR23538290			Aligned 1 time: 60736392 (79.86%)
+SRR23538290			Aligned >1 times: 8870232 (11.66%)
+SRR23538290		Overall alignment rate: 91.53%
+SRR23538290	hisat-3n genome alignment took 480.129776718 seconds.
+SRR23538290	[bam_sort_core] merging from 1 files and 20 in-memory blocks...
+SRR23538290	samtools sort took 92.381168632 seconds.
+SRR23538290	samtools view took 5.084036388 seconds.
+SRR23538292	HISAT2 summary stats:
+SRR23538292		Total reads: 96046918
+SRR23538292			Aligned 0 time: 9275396 (9.66%)
+SRR23538292			Aligned 1 time: 75007519 (78.09%)
+SRR23538292			Aligned >1 times: 11764003 (12.25%)
+SRR23538292		Overall alignment rate: 90.34%
+SRR23538292	hisat-3n genome alignment took 534.266847348 seconds.
+SRR23538292	[bam_sort_core] merging from 1 files and 20 in-memory blocks...
+SRR23538292	samtools sort took 133.353999467 seconds.
+SRR23538292	samtools view took 6.497337240 seconds.
+SRR23538291	HISAT2 summary stats:
+SRR23538291		Total reads: 110519553
+SRR23538291			Aligned 0 time: 10932136 (9.89%)
+SRR23538291			Aligned 1 time: 85851348 (77.68%)
+SRR23538291			Aligned >1 times: 13736069 (12.43%)
+SRR23538291		Overall alignment rate: 90.11%
+SRR23538291	hisat-3n genome alignment took 666.037602964 seconds.
+SRR23538291	[bam_sort_core] merging from 2 files and 20 in-memory blocks...
+SRR23538291	samtools sort took 145.920075649 seconds.
+SRR23538291	samtools view took 7.171247794 seconds.
+SRR23538290	INFO	2025-02-16 22:56:21	SortingCollection	Creating merging iterator from 137 files
+SRR23538290	UMICollapse deduplication took 726.301343165 seconds.
+SRR23538292	INFO	2025-02-16 23:01:17	SortingCollection	Creating merging iterator from 175 files
+SRR23538290	samtools filter took 58.687920383 seconds.
+SRR23538290	samtools index took 4.226827015 seconds.
+SRR23538291	INFO	2025-02-16 23:05:47	SortingCollection	Creating merging iterator from 194 files
+SRR23538292	UMICollapse deduplication took 860.370089984 seconds.
+SRR23538292	samtools filter took 73.744591964 seconds.
+SRR23538292	samtools index took 5.912241859 seconds.
+SRR23538291	UMICollapse deduplication took 935.753348033 seconds.
+SRR23538291	samtools filter took 80.399302337 seconds.
+SRR23538291	samtools index took 6.008454417 seconds.
+SRR23538290	hisat-3n-table site calling took 1555.234178892 seconds.
+SRR23538290	join_pileup.py took 55.795446628 seconds.
+SRR23538292	hisat-3n-table site calling took 1821.424073167 seconds.
+SRR23538292	join_pileup.py took 61.050878385 seconds.
+SRR23538291	hisat-3n-table site calling took 1817.762058722 seconds.
+SRR23538291	join_pileup.py took 62.920500064 seconds.
+group_pileup.py took 94.184976292 seconds.
+select_sites.py took 14.052708306 seconds.
+filter_sites.py took 27.456641494 seconds.
+Total time: 4687.367116270 seconds.
