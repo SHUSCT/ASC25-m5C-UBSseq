@@ -4,7 +4,9 @@ channels:
   - bioconda
 dependencies:
   - conda-forge::polars
+  - conda-forge::scipy
   - bioconda::sra-tools
   - pip
   - pip:
-      - cutseq
+      - cutadapt==4.8
+      - cutseq==0.0.58

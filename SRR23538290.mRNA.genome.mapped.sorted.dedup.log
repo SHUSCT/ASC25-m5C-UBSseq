@@ -1,0 +1,10 @@
+Arguments	[bam, -T, 40, --data, bktree, --merge, avgqual, --two-pass, -i, ./SRR23538290/SRR23538290.mRNA.genome.mapped.sorted.bam, -o, ./SRR23538290/SRR23538290.mRNA.genome.mapped.sorted.dedup.bam]
+Done with the first pass!
+Number of input reads	90077586
+Number of removed unmapped reads	0
+Number of unremoved reads	90077586
+Number of unique alignment positions	19673941
+Average number of UMIs per alignment position	3.5637922264786703
+Max number of UMIs over all alignment positions	5755
+Number of reads after deduplicating	68214884
+UMI collapsing finished in 707.348 seconds!
